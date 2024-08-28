@@ -14,7 +14,8 @@ function azure_region() {
 }
 
 function gpt_model() {
-    return localStorage.getItem("gpt_model") || "gpt-3.5-turbo"
+    //return localStorage.getItem("gpt_model") || "gpt-3.5-turbo"
+    return localStorage.getItem("gpt_model") || "gpt-4o-mini"
 }
 
 export default {
