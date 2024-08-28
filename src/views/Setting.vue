@@ -21,7 +21,7 @@
       GPT Model:
       <el-radio-group v-model="gpt_model" @change="onKeyChange('gpt_model')">
         <el-radio label="gpt-3.5-turbo"></el-radio>
-        <el-radio label="gpt-4"></el-radio>
+        <el-radio label="gpt-4-mini"></el-radio>
       </el-radio-group>
     </div>
 
